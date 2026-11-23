@@ -1,0 +1,438 @@
+﻿id_cliente,zona,data_iscrizione,richieste_ultimi_6_mesi,spesa_totale_euro,spesa_media_euro,giorni_ultima_richiesta,categoria_preferita
+CLI-0001,Pola,2026-05-22,38,1463.0,38.5,7,Biancheria e forniture
+CLI-0002,Rovigno,2026-02-23,20,1548.8,77.44,13,Biancheria e forniture
+CLI-0003,Umago,2026-05-05,15,2858.55,190.57,21,Manutenzione
+CLI-0004,Pola,2026-03-08,17,1990.53,117.09,33,Assistenza tecnologica
+CLI-0005,Rovigno,2026-01-18,3,93.99,31.33,144,Check-in e accoglienza
+CLI-0006,Pola,2026-02-21,7,747.04,106.72,80,Assistenza tecnologica
+CLI-0007,Pola,2026-02-10,2,244.38,122.19,36,Manutenzione
+CLI-0008,Umago,2026-06-18,6,508.02,84.67,40,Pulizie e cambio ospiti
+CLI-0009,Pola,2026-01-15,3,132.72,44.24,144,Assistenza tecnologica
+CLI-0010,Rovigno,2026-02-16,15,954.15,63.61,45,Check-in e accoglienza
+CLI-0011,Umago,2026-04-18,41,6012.65,146.65,12,Manutenzione
+CLI-0012,Pola,2026-02-02,17,1036.32,60.96,16,Check-in e accoglienza
+CLI-0013,Umago,2026-04-21,12,555.84,46.32,12,Biancheria e forniture
+CLI-0014,Pola,2026-07-21,5,281.7,56.34,102,Biancheria e forniture
+CLI-0015,Parenzo,2026-03-08,2,123.36,61.68,147,Pulizie e cambio ospiti
+CLI-0016,Umago,2026-04-04,7,724.01,103.43,49,Assistenza tecnologica
+CLI-0017,Parenzo,2026-07-23,3,337.11,112.37,31,Manutenzione
+CLI-0018,Umago,2026-02-07,14,1596.42,114.03,51,Pulizie e cambio ospiti
+CLI-0019,Pola,2026-01-21,9,1407.33,156.37,83,Manutenzione
+CLI-0020,Novigrad,2026-04-25,4,344.44,86.11,142,Pulizie e cambio ospiti
+CLI-0021,Pola,2026-04-03,17,1237.43,72.79,33,Assistenza tecnologica
+CLI-0022,Parenzo,2026-05-02,33,5790.18,175.46,9,Manutenzione
+CLI-0023,Parenzo,2026-04-11,13,929.63,71.51,36,Assistenza tecnologica
+CLI-0024,Pola,2026-09-05,4,378.96,94.74,12,Manutenzione
+CLI-0025,Rovigno,2026-03-17,3,382.08,127.36,149,Manutenzione
+CLI-0026,Rovigno,2026-02-25,1,79.58,79.58,124,Biancheria e forniture
+CLI-0027,Novigrad,2026-06-21,4,747.96,186.99,83,Manutenzione
+CLI-0028,Novigrad,2026-03-12,11,1095.05,99.55,13,Assistenza tecnologica
+CLI-0029,Umago,2026-05-28,15,1666.35,111.09,11,Manutenzione
+CLI-0030,Pola,2026-03-04,19,2053.14,108.06,37,Assistenza tecnologica
+CLI-0031,Pola,2026-04-28,1,89.09,89.09,141,Assistenza tecnologica
+CLI-0032,Rovigno,2026-02-01,17,1333.99,78.47,42,Biancheria e forniture
+CLI-0033,Rovigno,2026-03-21,22,2226.62,101.21,10,Assistenza tecnologica
+CLI-0034,Rovigno,2026-01-15,22,1576.3,71.65,96,Manutenzione
+CLI-0035,Parenzo,2026-02-11,1,72.49,72.49,83,Manutenzione
+CLI-0036,Umago,2026-03-08,15,1498.05,99.87,21,Assistenza tecnologica
+CLI-0037,Umago,2026-04-06,35,2104.55,60.13,0,Pulizie e cambio ospiti
+CLI-0038,Rovigno,2026-09-22,2,106.44,53.22,19,Check-in e accoglienza
+CLI-0039,Parenzo,2026-02-07,40,3724.8,93.12,16,Assistenza tecnologica
+CLI-0040,Pola,2026-03-16,31,1457.31,47.01,1,Check-in e accoglienza
+CLI-0041,Pola,2026-03-26,22,2598.2,118.1,119,Manutenzione
+CLI-0042,Pola,2026-03-03,11,2061.95,187.45,35,Manutenzione
+CLI-0043,Pola,2026-01-19,22,1837.88,83.54,0,Biancheria e forniture
+CLI-0044,Rovigno,2026-03-06,10,1417.2,141.72,27,Manutenzione
+CLI-0045,Parenzo,2026-05-07,2,173.56,86.78,28,Biancheria e forniture
+CLI-0046,Pola,2026-02-08,6,676.56,112.76,145,Assistenza tecnologica
+CLI-0047,Novigrad,2026-03-02,16,2121.12,132.57,9,Assistenza tecnologica
+CLI-0048,Parenzo,2026-02-21,17,2046.97,120.41,119,Manutenzione
+CLI-0049,Novigrad,2026-04-10,42,3756.9,89.45,8,Assistenza tecnologica
+CLI-0050,Pola,2026-06-06,16,1282.4,80.15,17,Pulizie e cambio ospiti
+CLI-0051,Rovigno,2026-02-23,20,911.0,45.55,37,Check-in e accoglienza
+CLI-0052,Rovigno,2026-05-15,6,284.16,47.36,140,Check-in e accoglienza
+CLI-0053,Umago,2026-03-04,2,196.9,98.45,155,Assistenza tecnologica
+CLI-0054,Parenzo,2026-04-05,24,726.0,30.25,54,Check-in e accoglienza
+CLI-0055,Rovigno,2026-01-20,3,204.66,68.22,112,Pulizie e cambio ospiti
+CLI-0056,Umago,2026-05-19,9,952.47,105.83,21,Assistenza tecnologica
+CLI-0057,Novigrad,2026-04-11,23,1200.6,52.2,1,Check-in e accoglienza
+CLI-0058,Rovigno,2026-02-04,22,1529.88,69.54,104,Pulizie e cambio ospiti
+CLI-0059,Parenzo,2026-02-14,9,398.7,44.3,94,Biancheria e forniture
+CLI-0060,Rovigno,2026-02-23,7,376.46,53.78,34,Pulizie e cambio ospiti
+CLI-0061,Rovigno,2026-04-29,12,541.56,45.13,5,Check-in e accoglienza
+CLI-0062,Parenzo,2026-04-03,2,116.64,58.32,160,Check-in e accoglienza
+CLI-0063,Rovigno,2026-03-28,39,1555.71,39.89,15,Check-in e accoglienza
+CLI-0064,Umago,2026-03-01,20,3374.2,168.71,93,Manutenzione
+CLI-0065,Parenzo,2026-09-11,4,390.52,97.63,29,Assistenza tecnologica
+CLI-0066,Pola,2026-03-31,41,4064.74,99.14,6,Pulizie e cambio ospiti
+CLI-0067,Rovigno,2026-01-11,16,473.76,29.61,48,Check-in e accoglienza
+CLI-0068,Umago,2026-03-15,10,855.5,85.55,31,Pulizie e cambio ospiti
+CLI-0069,Pola,2026-03-17,27,960.39,35.57,11,Biancheria e forniture
+CLI-0070,Novigrad,2026-03-21,18,527.4,29.3,97,Check-in e accoglienza
+CLI-0071,Rovigno,2026-03-29,29,2073.79,71.51,14,Biancheria e forniture
+CLI-0072,Parenzo,2026-01-25,24,4930.32,205.43,76,Manutenzione
+CLI-0073,Pola,2026-01-25,29,3421.71,117.99,17,Assistenza tecnologica
+CLI-0074,Rovigno,2026-08-30,3,165.72,55.24,9,Pulizie e cambio ospiti
+CLI-0075,Pola,2026-01-09,32,2403.52,75.11,18,Pulizie e cambio ospiti
+CLI-0076,Parenzo,2026-02-26,4,168.36,42.09,137,Assistenza tecnologica
+CLI-0077,Parenzo,2026-03-28,1,40.51,40.51,118,Biancheria e forniture
+CLI-0078,Pola,2026-03-23,7,692.44,98.92,40,Pulizie e cambio ospiti
+CLI-0079,Novigrad,2026-01-21,17,3470.55,204.15,54,Manutenzione
+CLI-0080,Pola,2026-03-06,18,887.58,49.31,19,Biancheria e forniture
+CLI-0081,Parenzo,2026-03-05,2,99.9,49.95,110,Biancheria e forniture
+CLI-0082,Umago,2026-05-16,19,1619.75,85.25,11,Assistenza tecnologica
+CLI-0083,Umago,2026-02-18,7,282.73,40.39,35,Check-in e accoglienza
+CLI-0084,Umago,2026-01-25,22,1307.24,59.42,9,Check-in e accoglienza
+CLI-0085,Umago,2026-03-15,20,1459.6,72.98,41,Pulizie e cambio ospiti
+CLI-0086,Rovigno,2026-03-24,3,225.03,75.01,120,Assistenza tecnologica
+CLI-0087,Rovigno,2026-06-14,15,889.8,59.32,14,Biancheria e forniture
+CLI-0088,Rovigno,2026-04-27,31,2042.28,65.88,12,Pulizie e cambio ospiti
+CLI-0089,Umago,2026-04-11,34,2782.56,81.84,8,Manutenzione
+CLI-0090,Pola,2026-05-15,24,1223.76,50.99,20,Assistenza tecnologica
+CLI-0091,Pola,2026-01-29,8,683.6,85.45,80,Biancheria e forniture
+CLI-0092,Pola,2026-04-20,13,491.66,37.82,118,Biancheria e forniture
+CLI-0093,Parenzo,2026-05-08,26,1784.9,68.65,6,Pulizie e cambio ospiti
+CLI-0094,Rovigno,2026-03-25,3,167.76,55.92,33,Assistenza tecnologica
+CLI-0095,Umago,2026-02-24,5,421.05,84.21,75,Biancheria e forniture
+CLI-0096,Parenzo,2026-03-26,24,966.0,40.25,85,Biancheria e forniture
+CLI-0097,Novigrad,2026-02-08,30,2360.1,78.67,17,Pulizie e cambio ospiti
+CLI-0098,Pola,2026-06-10,2,117.88,58.94,57,Assistenza tecnologica
+CLI-0099,Rovigno,2026-04-12,3,121.62,40.54,58,Biancheria e forniture
+CLI-0100,Parenzo,2026-05-31,16,926.56,57.91,37,Check-in e accoglienza
+CLI-0101,Pola,2026-01-26,11,492.8,44.8,76,Check-in e accoglienza
+CLI-0102,Parenzo,2026-05-24,30,2182.8,72.76,2,Biancheria e forniture
+CLI-0103,Parenzo,2026-04-28,5,491.35,98.27,106,Pulizie e cambio ospiti
+CLI-0104,Parenzo,2026-01-31,15,1117.8,74.52,65,Pulizie e cambio ospiti
+CLI-0105,Pola,2026-04-17,16,1673.76,104.61,47,Assistenza tecnologica
+CLI-0106,Umago,2026-03-16,24,1734.48,72.27,36,Pulizie e cambio ospiti
+CLI-0107,Novigrad,2026-01-22,4,206.32,51.58,39,Check-in e accoglienza
+CLI-0108,Rovigno,2026-06-13,5,208.95,41.79,140,Biancheria e forniture
+CLI-0109,Novigrad,2026-01-09,27,2468.34,91.42,4,Biancheria e forniture
+CLI-0110,Umago,2026-03-10,22,1735.14,78.87,12,Pulizie e cambio ospiti
+CLI-0111,Novigrad,2026-03-27,28,2939.44,104.98,14,Pulizie e cambio ospiti
+CLI-0112,Pola,2026-09-23,4,420.52,105.13,23,Manutenzione
+CLI-0113,Pola,2026-04-09,4,738.12,184.53,90,Manutenzione
+CLI-0114,Umago,2026-05-17,24,4074.24,169.76,6,Manutenzione
+CLI-0115,Umago,2026-04-11,2,114.0,57.0,98,Check-in e accoglienza
+CLI-0116,Pola,2026-06-01,16,1239.84,77.49,25,Assistenza tecnologica
+CLI-0117,Novigrad,2026-03-17,24,1838.88,76.62,103,Biancheria e forniture
+CLI-0118,Rovigno,2026-03-10,10,686.9,68.69,15,Assistenza tecnologica
+CLI-0119,Pola,2026-06-03,3,225.63,75.21,58,Biancheria e forniture
+CLI-0120,Novigrad,2026-02-17,38,3411.26,89.77,15,Pulizie e cambio ospiti
+CLI-0121,Pola,2026-02-21,5,341.5,68.3,101,Assistenza tecnologica
+CLI-0122,Umago,2026-01-26,24,4371.6,182.15,100,Manutenzione
+CLI-0123,Parenzo,2026-01-26,3,525.51,175.17,149,Manutenzione
+CLI-0124,Rovigno,2026-04-23,20,1164.8,58.24,102,Biancheria e forniture
+CLI-0125,Parenzo,2026-02-27,1,190.9,190.9,153,Manutenzione
+CLI-0126,Rovigno,2026-04-11,1,31.99,31.99,135,Check-in e accoglienza
+CLI-0127,Rovigno,2026-02-23,12,696.0,58.0,90,Assistenza tecnologica
+CLI-0128,Pola,2026-05-03,21,858.9,40.9,3,Check-in e accoglienza
+CLI-0129,Rovigno,2026-03-11,23,1772.38,77.06,115,Pulizie e cambio ospiti
+CLI-0130,Rovigno,2026-07-03,8,1297.92,162.24,8,Manutenzione
+CLI-0131,Parenzo,2026-03-03,10,1037.4,103.74,117,Pulizie e cambio ospiti
+CLI-0132,Novigrad,2026-02-12,20,3064.4,153.22,35,Manutenzione
+CLI-0133,Parenzo,2026-02-25,25,1574.5,62.98,4,Biancheria e forniture
+CLI-0134,Parenzo,2026-04-02,3,85.95,28.65,159,Check-in e accoglienza
+CLI-0135,Pola,2026-04-06,1,38.68,38.68,128,Biancheria e forniture
+CLI-0136,Umago,2026-01-19,10,458.8,45.88,41,Biancheria e forniture
+CLI-0137,Pola,2026-05-19,6,251.88,41.98,149,Check-in e accoglienza
+CLI-0138,Rovigno,2026-05-21,7,683.27,97.61,13,Assistenza tecnologica
+CLI-0139,Rovigno,2026-03-14,19,752.4,39.6,10,Check-in e accoglienza
+CLI-0140,Novigrad,2026-04-09,6,677.94,112.99,36,Assistenza tecnologica
+CLI-0141,Rovigno,2026-03-16,20,1390.4,69.52,43,Assistenza tecnologica
+CLI-0142,Rovigno,2026-02-19,5,399.05,79.81,61,Assistenza tecnologica
+CLI-0143,Pola,2026-03-21,34,4347.92,127.88,14,Manutenzione
+CLI-0144,Novigrad,2026-03-12,1,39.31,39.31,161,Check-in e accoglienza
+CLI-0145,Pola,2026-03-22,16,1015.2,63.45,49,Assistenza tecnologica
+CLI-0146,Novigrad,2026-09-13,5,859.6,171.92,10,Manutenzione
+CLI-0147,Rovigno,2026-10-14,3,215.22,71.74,12,Biancheria e forniture
+CLI-0148,Parenzo,2026-01-28,10,803.4,80.34,82,Biancheria e forniture
+CLI-0149,Umago,2026-03-14,25,1800.5,72.02,83,Manutenzione
+CLI-0150,Umago,2026-04-05,19,676.4,35.6,20,Biancheria e forniture
+CLI-0151,Umago,2026-04-19,7,928.83,132.69,72,Assistenza tecnologica
+CLI-0152,Rovigno,2026-06-24,3,371.25,123.75,125,Manutenzione
+CLI-0153,Rovigno,2026-09-06,3,101.19,33.73,0,Check-in e accoglienza
+CLI-0154,Pola,2026-04-09,19,1734.13,91.27,11,Assistenza tecnologica
+CLI-0155,Rovigno,2026-01-12,38,2614.02,68.79,19,Pulizie e cambio ospiti
+CLI-0156,Novigrad,2026-02-06,25,2725.25,109.01,3,Pulizie e cambio ospiti
+CLI-0157,Umago,2026-07-05,5,294.5,58.9,114,Pulizie e cambio ospiti
+CLI-0158,Rovigno,2026-09-16,1,127.25,127.25,24,Manutenzione
+CLI-0159,Rovigno,2026-01-11,20,1244.6,62.23,32,Check-in e accoglienza
+CLI-0160,Rovigno,2026-04-05,15,835.05,55.67,116,Assistenza tecnologica
+CLI-0161,Pola,2026-06-21,8,633.6,79.2,33,Assistenza tecnologica
+CLI-0162,Pola,2026-02-02,11,1968.56,178.96,35,Manutenzione
+CLI-0163,Rovigno,2026-04-22,31,6350.97,204.87,6,Manutenzione
+CLI-0164,Pola,2026-02-04,11,1015.19,92.29,61,Manutenzione
+CLI-0165,Parenzo,2026-03-08,1,43.65,43.65,118,Check-in e accoglienza
+CLI-0166,Parenzo,2026-02-13,20,3015.6,150.78,0,Manutenzione
+CLI-0167,Parenzo,2026-03-29,24,1992.0,83.0,10,Manutenzione
+CLI-0168,Novigrad,2026-04-10,24,1045.44,43.56,44,Check-in e accoglienza
+CLI-0169,Parenzo,2026-05-29,9,423.81,47.09,13,Check-in e accoglienza
+CLI-0170,Rovigno,2026-04-15,3,290.25,96.75,135,Manutenzione
+CLI-0171,Pola,2026-04-22,4,211.4,52.85,31,Assistenza tecnologica
+CLI-0172,Umago,2026-08-31,5,363.95,72.79,1,Assistenza tecnologica
+CLI-0173,Pola,2026-09-05,3,328.83,109.61,15,Pulizie e cambio ospiti
+CLI-0174,Parenzo,2026-01-28,30,1118.4,37.28,3,Check-in e accoglienza
+CLI-0175,Parenzo,2026-01-11,20,1622.4,81.12,30,Pulizie e cambio ospiti
+CLI-0176,Parenzo,2026-05-31,18,1240.56,68.92,7,Pulizie e cambio ospiti
+CLI-0177,Pola,2026-03-30,13,675.35,51.95,104,Pulizie e cambio ospiti
+CLI-0178,Rovigno,2026-06-26,17,1129.65,66.45,24,Pulizie e cambio ospiti
+CLI-0179,Rovigno,2026-08-29,4,582.76,145.69,21,Manutenzione
+CLI-0180,Rovigno,2026-04-19,18,1641.42,91.19,108,Biancheria e forniture
+CLI-0181,Rovigno,2026-03-01,8,1538.64,192.33,115,Manutenzione
+CLI-0182,Novigrad,2026-04-29,15,1090.8,72.72,44,Assistenza tecnologica
+CLI-0183,Rovigno,2026-06-13,17,1328.89,78.17,45,Pulizie e cambio ospiti
+CLI-0184,Parenzo,2026-10-18,5,218.7,43.74,1,Biancheria e forniture
+CLI-0185,Umago,2026-04-11,1,67.17,67.17,106,Pulizie e cambio ospiti
+CLI-0186,Novigrad,2026-05-07,17,3537.19,208.07,17,Manutenzione
+CLI-0187,Pola,2026-01-27,7,686.7,98.1,50,Pulizie e cambio ospiti
+CLI-0188,Novigrad,2026-03-11,12,690.96,57.58,85,Check-in e accoglienza
+CLI-0189,Rovigno,2026-05-07,2,104.34,52.17,93,Biancheria e forniture
+CLI-0190,Umago,2026-02-02,2,151.56,75.78,130,Pulizie e cambio ospiti
+CLI-0191,Rovigno,2026-03-18,3,283.26,94.42,174,Assistenza tecnologica
+CLI-0192,Pola,2026-03-20,3,162.78,54.26,96,Check-in e accoglienza
+CLI-0193,Novigrad,2026-03-03,3,163.77,54.59,116,Check-in e accoglienza
+CLI-0194,Rovigno,2026-03-08,9,559.98,62.22,18,Check-in e accoglienza
+CLI-0195,Novigrad,2026-03-26,4,758.52,189.63,25,Manutenzione
+CLI-0196,Pola,2026-05-10,6,407.58,67.93,38,Pulizie e cambio ospiti
+CLI-0197,Parenzo,2026-02-14,2,176.66,88.33,113,Biancheria e forniture
+CLI-0198,Pola,2026-01-19,17,982.26,57.78,88,Pulizie e cambio ospiti
+CLI-0199,Rovigno,2026-06-23,6,733.44,122.24,29,Assistenza tecnologica
+CLI-0200,Pola,2026-04-11,19,3854.72,202.88,40,Manutenzione
+CLI-0201,Pola,2026-01-12,11,2171.95,197.45,4,Manutenzione
+CLI-0202,Umago,2026-03-20,22,2068.66,94.03,70,Biancheria e forniture
+CLI-0203,Umago,2026-01-15,1,182.56,182.56,47,Manutenzione
+CLI-0204,Pola,2026-05-19,13,977.21,75.17,9,Assistenza tecnologica
+CLI-0205,Pola,2026-01-28,1,53.56,53.56,15,Pulizie e cambio ospiti
+CLI-0206,Rovigno,2026-05-14,38,978.5,25.75,10,Check-in e accoglienza
+CLI-0207,Rovigno,2026-01-16,7,551.88,78.84,110,Pulizie e cambio ospiti
+CLI-0208,Parenzo,2026-04-15,33,876.15,26.55,6,Check-in e accoglienza
+CLI-0209,Parenzo,2026-03-30,8,1068.88,133.61,74,Assistenza tecnologica
+CLI-0210,Rovigno,2026-01-26,23,2138.54,92.98,47,Biancheria e forniture
+CLI-0211,Novigrad,2026-06-14,8,394.4,49.3,23,Biancheria e forniture
+CLI-0212,Pola,2026-05-23,23,1045.81,45.47,0,Check-in e accoglienza
+CLI-0213,Parenzo,2026-10-18,3,75.42,25.14,0,Check-in e accoglienza
+CLI-0214,Pola,2026-04-12,30,2785.5,92.85,6,Biancheria e forniture
+CLI-0215,Pola,2026-02-10,1,94.96,94.96,148,Manutenzione
+CLI-0216,Novigrad,2026-04-19,9,552.78,61.42,52,Biancheria e forniture
+CLI-0217,Pola,2026-04-13,11,698.17,63.47,112,Biancheria e forniture
+CLI-0218,Umago,2026-02-10,3,322.53,107.51,127,Assistenza tecnologica
+CLI-0219,Rovigno,2026-01-14,20,893.0,44.65,6,Check-in e accoglienza
+CLI-0220,Pola,2026-02-11,3,239.55,79.85,117,Assistenza tecnologica
+CLI-0221,Rovigno,2026-06-03,9,872.19,96.91,41,Assistenza tecnologica
+CLI-0222,Umago,2026-09-20,1,63.25,63.25,21,Biancheria e forniture
+CLI-0223,Umago,2026-04-28,15,1162.5,77.5,24,Pulizie e cambio ospiti
+CLI-0224,Pola,2026-10-07,3,194.7,64.9,3,Biancheria e forniture
+CLI-0225,Novigrad,2026-03-13,2,168.12,84.06,96,Assistenza tecnologica
+CLI-0226,Novigrad,2026-06-10,9,716.31,79.59,21,Pulizie e cambio ospiti
+CLI-0227,Pola,2026-09-08,2,202.78,101.39,12,Manutenzione
+CLI-0228,Umago,2026-09-25,4,182.72,45.68,25,Check-in e accoglienza
+CLI-0229,Pola,2026-05-18,39,998.01,25.59,19,Check-in e accoglienza
+CLI-0230,Pola,2026-01-21,2,100.5,50.25,94,Check-in e accoglienza
+CLI-0231,Pola,2026-03-10,22,1008.92,45.86,12,Check-in e accoglienza
+CLI-0232,Rovigno,2026-09-07,1,100.2,100.2,25,Assistenza tecnologica
+CLI-0233,Umago,2026-03-28,7,596.82,85.26,45,Pulizie e cambio ospiti
+CLI-0234,Pola,2026-01-29,24,1665.84,69.41,92,Pulizie e cambio ospiti
+CLI-0235,Rovigno,2026-03-07,15,977.55,65.17,7,Pulizie e cambio ospiti
+CLI-0236,Novigrad,2026-06-17,3,211.47,70.49,60,Biancheria e forniture
+CLI-0237,Rovigno,2026-02-18,3,199.68,66.56,129,Biancheria e forniture
+CLI-0238,Pola,2026-03-28,2,183.58,91.79,155,Pulizie e cambio ospiti
+CLI-0239,Pola,2026-02-10,38,1092.5,28.75,3,Check-in e accoglienza
+CLI-0240,Umago,2026-03-11,19,712.69,37.51,42,Biancheria e forniture
+CLI-0241,Rovigno,2026-03-31,35,2705.5,77.3,12,Assistenza tecnologica
+CLI-0242,Pola,2026-10-08,3,133.89,44.63,7,Check-in e accoglienza
+CLI-0243,Parenzo,2026-05-03,3,189.27,63.09,23,Pulizie e cambio ospiti
+CLI-0244,Rovigno,2026-09-28,1,78.33,78.33,1,Pulizie e cambio ospiti
+CLI-0245,Pola,2026-01-12,2,78.72,39.36,114,Biancheria e forniture
+CLI-0246,Rovigno,2026-06-10,3,150.6,50.2,72,Check-in e accoglienza
+CLI-0247,Umago,2026-02-27,35,3102.4,88.64,11,Pulizie e cambio ospiti
+CLI-0248,Rovigno,2026-03-03,24,1706.64,71.11,37,Pulizie e cambio ospiti
+CLI-0249,Rovigno,2026-03-26,8,493.84,61.73,6,Check-in e accoglienza
+CLI-0250,Parenzo,2026-10-12,2,120.34,60.17,11,Pulizie e cambio ospiti
+CLI-0251,Parenzo,2026-05-24,7,388.29,55.47,27,Pulizie e cambio ospiti
+CLI-0252,Rovigno,2026-04-07,15,2004.75,133.65,49,Assistenza tecnologica
+CLI-0253,Umago,2026-02-08,7,402.15,57.45,37,Check-in e accoglienza
+CLI-0254,Rovigno,2026-09-26,1,40.0,40.0,26,Check-in e accoglienza
+CLI-0255,Rovigno,2026-04-25,41,1312.0,32.0,4,Check-in e accoglienza
+CLI-0256,Rovigno,2026-02-20,17,803.93,47.29,48,Biancheria e forniture
+CLI-0257,Umago,2026-03-09,4,151.08,37.77,139,Biancheria e forniture
+CLI-0258,Pola,2026-04-22,3,564.09,188.03,58,Manutenzione
+CLI-0259,Umago,2026-03-14,16,1434.4,89.65,54,Manutenzione
+CLI-0260,Pola,2026-03-21,9,446.13,49.57,116,Check-in e accoglienza
+CLI-0261,Parenzo,2026-01-24,2,344.94,172.47,144,Manutenzione
+CLI-0262,Rovigno,2026-03-04,8,322.32,40.29,70,Biancheria e forniture
+CLI-0263,Pola,2026-03-05,8,941.36,117.67,119,Manutenzione
+CLI-0264,Rovigno,2026-03-25,12,1045.2,87.1,33,Pulizie e cambio ospiti
+CLI-0265,Umago,2026-02-04,26,861.38,33.13,7,Check-in e accoglienza
+CLI-0266,Parenzo,2026-01-14,12,1442.4,120.2,84,Assistenza tecnologica
+CLI-0267,Rovigno,2026-04-23,19,2091.71,110.09,71,Manutenzione
+CLI-0268,Parenzo,2026-03-06,1,45.71,45.71,136,Biancheria e forniture
+CLI-0269,Umago,2026-02-15,10,583.4,58.34,12,Biancheria e forniture
+CLI-0270,Rovigno,2026-07-22,4,260.92,65.23,101,Biancheria e forniture
+CLI-0271,Umago,2026-09-29,1,146.47,146.47,13,Manutenzione
+CLI-0272,Novigrad,2026-02-16,12,574.92,47.91,40,Check-in e accoglienza
+CLI-0273,Rovigno,2026-04-08,19,2358.85,124.15,18,Assistenza tecnologica
+CLI-0274,Rovigno,2026-04-09,10,872.9,87.29,49,Assistenza tecnologica
+CLI-0275,Novigrad,2026-05-18,42,4068.12,96.86,18,Assistenza tecnologica
+CLI-0276,Umago,2026-01-29,7,386.96,55.28,38,Check-in e accoglienza
+CLI-0277,Rovigno,2026-03-24,1,111.25,111.25,168,Pulizie e cambio ospiti
+CLI-0278,Rovigno,2026-04-06,5,447.65,89.53,52,Assistenza tecnologica
+CLI-0279,Pola,2026-02-26,15,1434.45,95.63,13,Pulizie e cambio ospiti
+CLI-0280,Rovigno,2026-06-14,3,82.53,27.51,83,Check-in e accoglienza
+CLI-0281,Rovigno,2026-02-27,15,769.2,51.28,89,Biancheria e forniture
+CLI-0282,Umago,2026-04-01,21,1872.57,89.17,13,Biancheria e forniture
+CLI-0283,Parenzo,2026-04-04,9,858.78,95.42,71,Pulizie e cambio ospiti
+CLI-0284,Rovigno,2026-03-18,2,147.08,73.54,143,Biancheria e forniture
+CLI-0285,Rovigno,2026-01-30,19,962.54,50.66,91,Check-in e accoglienza
+CLI-0286,Rovigno,2026-04-06,3,100.98,33.66,109,Check-in e accoglienza
+CLI-0287,Novigrad,2026-02-03,40,3183.6,79.59,12,Assistenza tecnologica
+CLI-0288,Rovigno,2026-04-03,21,967.05,46.05,46,Check-in e accoglienza
+CLI-0289,Pola,2026-10-14,2,131.9,65.95,17,Assistenza tecnologica
+CLI-0290,Rovigno,2026-10-16,3,324.27,108.09,15,Pulizie e cambio ospiti
+CLI-0291,Rovigno,2026-02-10,6,297.78,49.63,110,Check-in e accoglienza
+CLI-0292,Pola,2026-03-10,23,2125.89,92.43,10,Biancheria e forniture
+CLI-0293,Umago,2026-02-19,13,1061.97,81.69,95,Pulizie e cambio ospiti
+CLI-0294,Pola,2026-04-19,12,1039.2,86.6,13,Biancheria e forniture
+CLI-0295,Rovigno,2026-02-04,41,2892.14,70.54,8,Manutenzione
+CLI-0296,Umago,2026-04-05,2,260.62,130.31,152,Assistenza tecnologica
+CLI-0297,Umago,2026-06-25,20,1850.6,92.53,40,Biancheria e forniture
+CLI-0298,Rovigno,2026-02-05,2,103.64,51.82,147,Pulizie e cambio ospiti
+CLI-0299,Parenzo,2026-01-22,5,544.15,108.83,97,Pulizie e cambio ospiti
+CLI-0300,Umago,2026-04-24,10,275.6,27.56,61,Check-in e accoglienza
+CLI-0301,Parenzo,2026-04-05,1,86.02,86.02,81,Pulizie e cambio ospiti
+CLI-0302,Parenzo,2026-02-14,3,214.5,71.5,114,Assistenza tecnologica
+CLI-0303,Novigrad,2026-01-25,5,548.7,109.74,122,Pulizie e cambio ospiti
+CLI-0304,Umago,2026-05-09,21,3563.91,169.71,18,Manutenzione
+CLI-0305,Pola,2026-10-05,3,221.49,73.83,12,Pulizie e cambio ospiti
+CLI-0306,Pola,2026-09-20,3,149.19,49.73,23,Check-in e accoglienza
+CLI-0307,Rovigno,2026-01-11,1,39.04,39.04,27,Check-in e accoglienza
+CLI-0308,Novigrad,2026-01-19,8,931.92,116.49,115,Assistenza tecnologica
+CLI-0309,Parenzo,2026-05-08,35,3474.8,99.28,20,Assistenza tecnologica
+CLI-0310,Parenzo,2026-04-07,2,120.5,60.25,147,Check-in e accoglienza
+CLI-0311,Parenzo,2026-06-08,2,67.24,33.62,139,Check-in e accoglienza
+CLI-0312,Parenzo,2026-02-09,19,1335.51,70.29,32,Assistenza tecnologica
+CLI-0313,Parenzo,2026-09-25,5,448.8,89.76,10,Manutenzione
+CLI-0314,Pola,2026-03-22,23,3484.73,151.51,36,Manutenzione
+CLI-0315,Rovigno,2026-09-19,1,57.16,57.16,23,Biancheria e forniture
+CLI-0316,Pola,2026-03-10,20,1907.6,95.38,52,Manutenzione
+CLI-0317,Parenzo,2026-03-14,8,618.48,77.31,37,Biancheria e forniture
+CLI-0318,Umago,2026-01-19,12,768.84,64.07,29,Pulizie e cambio ospiti
+CLI-0319,Novigrad,2026-03-09,7,745.99,106.57,87,Assistenza tecnologica
+CLI-0320,Parenzo,2026-02-15,38,3895.0,102.5,19,Assistenza tecnologica
+CLI-0321,Rovigno,2026-02-05,2,160.6,80.3,78,Pulizie e cambio ospiti
+CLI-0322,Rovigno,2026-10-16,3,245.91,81.97,7,Pulizie e cambio ospiti
+CLI-0323,Rovigno,2026-02-27,19,1697.08,89.32,59,Assistenza tecnologica
+CLI-0324,Pola,2026-02-08,8,560.32,70.04,38,Pulizie e cambio ospiti
+CLI-0325,Pola,2026-01-26,3,242.85,80.95,34,Assistenza tecnologica
+CLI-0326,Rovigno,2026-03-26,38,2903.96,76.42,20,Manutenzione
+CLI-0327,Parenzo,2026-09-24,5,646.25,129.25,20,Manutenzione
+CLI-0328,Umago,2026-04-25,10,2031.7,203.17,41,Manutenzione
+CLI-0329,Umago,2026-01-10,1,97.41,97.41,145,Pulizie e cambio ospiti
+CLI-0330,Parenzo,2026-09-29,4,202.92,50.73,14,Assistenza tecnologica
+CLI-0331,Novigrad,2026-01-26,15,791.4,52.76,84,Biancheria e forniture
+CLI-0332,Pola,2026-04-17,18,2148.84,119.38,5,Assistenza tecnologica
+CLI-0333,Pola,2026-04-08,17,1743.52,102.56,105,Pulizie e cambio ospiti
+CLI-0334,Parenzo,2026-02-13,4,184.16,46.04,128,Assistenza tecnologica
+CLI-0335,Novigrad,2026-02-17,23,1474.3,64.1,98,Assistenza tecnologica
+CLI-0336,Parenzo,2026-03-04,10,835.5,83.55,97,Assistenza tecnologica
+CLI-0337,Novigrad,2026-01-22,2,110.66,55.33,145,Biancheria e forniture
+CLI-0338,Parenzo,2026-01-19,18,2875.68,159.76,81,Manutenzione
+CLI-0339,Umago,2026-01-14,18,1157.4,64.3,47,Biancheria e forniture
+CLI-0340,Rovigno,2026-01-22,22,2118.82,96.31,99,Manutenzione
+CLI-0341,Pola,2026-05-17,11,915.86,83.26,23,Assistenza tecnologica
+CLI-0342,Parenzo,2026-03-22,23,1679.0,73.0,60,Biancheria e forniture
+CLI-0343,Novigrad,2026-04-03,22,1910.48,86.84,0,Pulizie e cambio ospiti
+CLI-0344,Parenzo,2026-04-07,8,1071.04,133.88,61,Manutenzione
+CLI-0345,Parenzo,2026-01-09,19,1197.38,63.02,15,Biancheria e forniture
+CLI-0346,Novigrad,2026-08-31,3,358.11,119.37,22,Manutenzione
+CLI-0347,Novigrad,2026-04-21,10,1249.0,124.9,84,Assistenza tecnologica
+CLI-0348,Umago,2026-03-31,41,1255.42,30.62,16,Check-in e accoglienza
+CLI-0349,Parenzo,2026-01-21,26,2965.3,114.05,10,Pulizie e cambio ospiti
+CLI-0350,Rovigno,2026-04-13,20,1421.6,71.08,11,Pulizie e cambio ospiti
+CLI-0351,Rovigno,2026-01-22,15,617.55,41.17,32,Check-in e accoglienza
+CLI-0352,Novigrad,2026-01-12,16,1119.2,69.95,96,Pulizie e cambio ospiti
+CLI-0353,Parenzo,2026-04-07,14,892.5,63.75,46,Check-in e accoglienza
+CLI-0354,Umago,2026-05-30,19,1210.68,63.72,39,Biancheria e forniture
+CLI-0355,Parenzo,2026-03-11,11,761.53,69.23,20,Pulizie e cambio ospiti
+CLI-0356,Novigrad,2026-01-31,2,91.6,45.8,140,Check-in e accoglienza
+CLI-0357,Parenzo,2026-05-12,20,3723.0,186.15,11,Manutenzione
+CLI-0358,Parenzo,2026-02-06,8,494.08,61.76,36,Check-in e accoglienza
+CLI-0359,Novigrad,2026-03-11,40,7265.6,181.64,19,Manutenzione
+CLI-0360,Pola,2026-04-20,8,610.48,76.31,24,Assistenza tecnologica
+CLI-0361,Parenzo,2026-01-24,20,3340.6,167.03,4,Manutenzione
+CLI-0362,Novigrad,2026-03-09,38,2170.94,57.13,4,Biancheria e forniture
+CLI-0363,Novigrad,2026-02-14,23,3068.43,133.41,12,Assistenza tecnologica
+CLI-0364,Novigrad,2026-05-04,12,738.24,61.52,43,Pulizie e cambio ospiti
+CLI-0365,Parenzo,2026-04-08,3,139.68,46.56,151,Check-in e accoglienza
+CLI-0366,Parenzo,2026-04-24,6,217.08,36.18,93,Biancheria e forniture
+CLI-0367,Rovigno,2026-01-23,15,767.25,51.15,18,Pulizie e cambio ospiti
+CLI-0368,Parenzo,2026-04-10,2,370.62,185.31,113,Manutenzione
+CLI-0369,Parenzo,2026-04-01,12,636.96,53.08,32,Check-in e accoglienza
+CLI-0370,Parenzo,2026-04-26,15,1934.55,128.97,38,Assistenza tecnologica
+CLI-0371,Pola,2026-04-11,22,2328.26,105.83,12,Manutenzione
+CLI-0372,Rovigno,2026-02-07,3,101.4,33.8,171,Check-in e accoglienza
+CLI-0373,Pola,2026-03-21,13,2448.03,188.31,35,Manutenzione
+CLI-0374,Parenzo,2026-01-14,7,763.98,109.14,89,Pulizie e cambio ospiti
+CLI-0375,Pola,2026-02-01,29,1738.26,59.94,10,Check-in e accoglienza
+CLI-0376,Pola,2026-05-03,19,2655.06,139.74,20,Manutenzione
+CLI-0377,Umago,2026-04-05,8,562.88,70.36,42,Assistenza tecnologica
+CLI-0378,Rovigno,2026-09-05,3,163.29,54.43,19,Check-in e accoglienza
+CLI-0379,Pola,2026-01-28,3,113.16,37.72,116,Biancheria e forniture
+CLI-0380,Parenzo,2026-01-22,4,210.48,52.62,38,Check-in e accoglienza
+CLI-0381,Umago,2026-04-23,14,1260.56,90.04,92,Manutenzione
+CLI-0382,Umago,2026-09-19,1,66.31,66.31,10,Biancheria e forniture
+CLI-0383,Umago,2026-04-11,18,1092.24,60.68,11,Assistenza tecnologica
+CLI-0384,Rovigno,2026-02-04,4,237.8,59.45,118,Pulizie e cambio ospiti
+CLI-0385,Parenzo,2026-02-11,19,1080.91,56.89,49,Check-in e accoglienza
+CLI-0386,Novigrad,2026-01-26,14,1361.92,97.28,93,Pulizie e cambio ospiti
+CLI-0387,Pola,2026-04-21,23,1024.88,44.56,36,Assistenza tecnologica
+CLI-0388,Parenzo,2026-05-24,14,423.78,30.27,33,Check-in e accoglienza
+CLI-0389,Parenzo,2026-04-23,12,632.28,52.69,14,Biancheria e forniture
+CLI-0390,Rovigno,2026-01-22,15,1482.15,98.81,4,Manutenzione
+CLI-0391,Pola,2026-04-28,33,1331.55,40.35,5,Biancheria e forniture
+CLI-0392,Umago,2026-06-19,2,225.26,112.63,100,Pulizie e cambio ospiti
+CLI-0393,Rovigno,2026-05-05,30,4133.7,137.79,20,Manutenzione
+CLI-0394,Umago,2026-01-13,18,1139.94,63.33,119,Check-in e accoglienza
+CLI-0395,Novigrad,2026-05-02,34,4948.02,145.53,16,Manutenzione
+CLI-0396,Novigrad,2026-03-31,23,1115.73,48.51,63,Check-in e accoglienza
+CLI-0397,Pola,2026-03-31,4,196.36,49.09,24,Assistenza tecnologica
+CLI-0398,Pola,2026-09-23,3,333.39,111.13,15,Pulizie e cambio ospiti
+CLI-0399,Pola,2026-04-08,1,75.94,75.94,155,Assistenza tecnologica
+CLI-0400,Pola,2026-03-06,16,1130.88,70.68,69,Biancheria e forniture
+CLI-0401,Pola,2026-10-06,4,380.72,95.18,13,Assistenza tecnologica
+CLI-0402,Rovigno,2026-06-23,4,308.84,77.21,130,Biancheria e forniture
+CLI-0403,Pola,2026-04-20,9,484.56,53.84,16,Biancheria e forniture
+CLI-0404,Umago,2026-04-07,6,370.44,61.74,111,Pulizie e cambio ospiti
+CLI-0405,Novigrad,2026-05-21,4,697.4,174.35,100,Manutenzione
+CLI-0406,Umago,2026-04-10,11,824.23,74.93,35,Biancheria e forniture
+CLI-0407,Rovigno,2026-05-16,14,586.32,41.88,22,Check-in e accoglienza
+CLI-0408,Parenzo,2026-01-29,2,211.94,105.97,18,Manutenzione
+CLI-0409,Rovigno,2026-05-01,21,702.24,33.44,16,Check-in e accoglienza
+CLI-0410,Pola,2026-04-01,8,568.48,71.06,75,Manutenzione
+CLI-0411,Rovigno,2026-02-10,3,301.11,100.37,43,Manutenzione
+CLI-0412,Rovigno,2026-01-15,33,2148.96,65.12,0,Biancheria e forniture
+CLI-0413,Umago,2026-05-17,6,477.18,79.53,66,Pulizie e cambio ospiti
+CLI-0414,Rovigno,2026-02-22,18,1087.92,60.44,46,Check-in e accoglienza
+CLI-0415,Pola,2026-09-08,2,316.1,158.05,11,Manutenzione
+CLI-0416,Parenzo,2026-01-31,4,314.32,78.58,98,Pulizie e cambio ospiti
+CLI-0417,Parenzo,2026-06-21,6,320.16,53.36,121,Pulizie e cambio ospiti
+CLI-0418,Novigrad,2026-05-09,39,2276.82,58.38,5,Biancheria e forniture
+CLI-0419,Novigrad,2026-02-01,14,865.2,61.8,17,Biancheria e forniture
+CLI-0420,Parenzo,2026-03-01,22,1553.42,70.61,44,Biancheria e forniture
+CLI-0421,Novigrad,2026-03-30,9,1318.05,146.45,89,Manutenzione
+CLI-0422,Novigrad,2026-02-28,5,450.95,90.19,86,Pulizie e cambio ospiti
+CLI-0423,Umago,2026-01-11,22,1152.14,52.37,107,Biancheria e forniture
+CLI-0424,Parenzo,2026-05-23,9,1555.29,172.81,23,Manutenzione
+CLI-0425,Parenzo,2026-07-12,3,337.71,112.57,111,Pulizie e cambio ospiti
+CLI-0426,Novigrad,2026-02-01,24,2005.44,83.56,38,Biancheria e forniture
+CLI-0427,Pola,2026-02-25,29,2906.38,100.22,1,Manutenzione
+CLI-0428,Parenzo,2026-03-19,3,336.51,112.17,91,Pulizie e cambio ospiti
+CLI-0429,Umago,2026-06-08,16,1297.12,81.07,31,Pulizie e cambio ospiti
+CLI-0430,Parenzo,2026-09-17,4,155.72,38.93,10,Check-in e accoglienza
+CLI-0431,Pola,2026-07-12,3,252.99,84.33,111,Pulizie e cambio ospiti
+CLI-0432,Rovigno,2026-02-21,1,55.23,55.23,135,Biancheria e forniture
+CLI-0433,Umago,2026-01-31,17,1302.03,76.59,40,Biancheria e forniture
+CLI-0434,Parenzo,2026-03-05,12,762.6,63.55,119,Check-in e accoglienza
+CLI-0435,Parenzo,2026-05-11,5,465.1,93.02,61,Pulizie e cambio ospiti
+CLI-0436,Pola,2026-07-17,4,211.4,52.85,106,Biancheria e forniture
+CLI-0437,Rovigno,2026-02-27,6,616.74,102.79,48,Assistenza tecnologica
