@@ -1,0 +1,4 @@
+﻿cluster,clienti,richieste_medie,spesa_media_euro,spesa_totale_euro,giorni_ultima_richiesta_medi,percentuale_clienti,quota_fatturato_pct,categoria_prevalente
+0,220,17.45,67.71,263562.84,24.07,50.34,55.08,Check-in e accoglienza
+1,78,12.05,151.71,148701.26,42.67,17.85,31.08,Manutenzione
+2,139,6.62,70.49,66218.91,111.79,31.81,13.84,Pulizie e cambio ospiti
