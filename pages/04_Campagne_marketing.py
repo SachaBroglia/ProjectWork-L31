@@ -37,10 +37,7 @@ st.divider()
 elenco_clienti = sorted(clienti["id_cliente"].tolist())
 
 # Recupero il cliente selezionato nella pagina di analisi
-cliente_richiesto = st.session_state.get(
-    "cliente_da_marketing",
-    "CLI-0005"
-)
+cliente_richiesto = st.session_state.get("cliente_da_marketing", "CLI-0005")
 
 # Controllo che il codice esista nel database
 if cliente_richiesto not in elenco_clienti:
@@ -48,15 +45,9 @@ if cliente_richiesto not in elenco_clienti:
 
 posizione = elenco_clienti.index(cliente_richiesto)
 
-id_selezionato = st.selectbox(
-    "Seleziona il cliente",
-    elenco_clienti,
-    index=posizione
-)
+id_selezionato = st.selectbox("Seleziona il cliente", elenco_clienti, index=posizione)
 
-cliente = clienti.loc[
-    clienti["id_cliente"] == id_selezionato
-].iloc[0]
+cliente = clienti.loc[clienti["id_cliente"] == id_selezionato].iloc[0]
 
 
 # Informazioni del cliente
@@ -89,13 +80,9 @@ st.divider()
 # Strategie commerciali associate ai segmenti
 
 if cluster == 0:
-
     campagna = "Programma servizi ricorrenti"
 
-    obiettivo = (
-        "Fidelizzare il cliente e semplificare "
-        "la programmazione dei servizi."
-    )
+    obiettivo = "Fidelizzare il cliente e semplificare la programmazione dei servizi."
 
     proposta = (
         f"Proporre un pacchetto periodico di {servizio.lower()} "
@@ -117,12 +104,10 @@ if cluster == 0:
     )
 
 elif cluster == 1:
-
     campagna = "Servizi premium su misura"
 
     obiettivo = (
-        "Valorizzare la relazione commerciale "
-        "attraverso servizi personalizzati."
+        "Valorizzare la relazione commerciale attraverso servizi personalizzati."
     )
 
     proposta = (
@@ -146,7 +131,6 @@ elif cluster == 1:
     )
 
 else:
-
     campagna = "Prepariamo insieme la prossima stagione"
 
     obiettivo = (
@@ -203,8 +187,7 @@ st.divider()
 st.subheader("Messaggio commerciale")
 
 st.write(
-    "Bozza personalizzata in base al segmento, "
-    "alla località e al servizio preferito."
+    "Bozza personalizzata in base al segmento, alla località e al servizio preferito."
 )
 
 testo_email = st.text_area(

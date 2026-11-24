@@ -72,19 +72,15 @@ st.sidebar.caption("Il periodo si riferisce all'iscrizione dei clienti.")
 st.sidebar.divider()
 st.sidebar.subheader("Comportamento di acquisto")
 
-max_richieste = int(
-    clienti["richieste_ultimi_6_mesi"].max()
-)
+max_richieste = int(clienti["richieste_ultimi_6_mesi"].max())
 
-max_spesa = (
-    int(clienti["spesa_totale_euro"].max() // 100) + 1
-) * 100
+max_spesa = (int(clienti["spesa_totale_euro"].max() // 100) + 1) * 100
 
 intervallo_richieste = st.sidebar.slider(
     "Numero di richieste",
     min_value=1,
     max_value=max_richieste,
-    value=(1, max_richieste)
+    value=(1, max_richieste),
 )
 
 intervallo_spesa = st.sidebar.slider(
@@ -92,7 +88,7 @@ intervallo_spesa = st.sidebar.slider(
     min_value=0,
     max_value=max_spesa,
     value=(0, max_spesa),
-    step=100
+    step=100,
 )
 
 dati_filtrati = clienti.copy()
@@ -117,18 +113,12 @@ if len(periodo) == 2:
 # Applico i filtri su richieste e spesa
 
 dati_filtrati = dati_filtrati[
-    dati_filtrati["richieste_ultimi_6_mesi"].between(
-        *intervallo_richieste
-    )
-    & dati_filtrati["spesa_totale_euro"].between(
-        *intervallo_spesa
-    )
+    dati_filtrati["richieste_ultimi_6_mesi"].between(*intervallo_richieste)
+    & dati_filtrati["spesa_totale_euro"].between(*intervallo_spesa)
 ]
 
 if dati_filtrati.empty:
-    st.warning(
-        "Nessun cliente corrisponde ai filtri selezionati."
-    )
+    st.warning("Nessun cliente corrisponde ai filtri selezionati.")
     st.stop()
 
 
@@ -318,14 +308,12 @@ st.caption(
 st.subheader("Dettaglio clienti")
 
 st.write(
-    "Seleziona un cliente nella tabella per visualizzare "
-    "la sua campagna marketing."
+    "Seleziona un cliente nella tabella per visualizzare la sua campagna marketing."
 )
 
 # Ordino i clienti in base alla spesa totale
 tabella_clienti = dati_filtrati.sort_values(
-    "spesa_totale_euro",
-    ascending=True
+    "spesa_totale_euro", ascending=True
 ).reset_index(drop=True)
 
 # Permetto di selezionare un cliente
@@ -335,12 +323,11 @@ selezione = st.dataframe(
     width="stretch",
     on_select="rerun",
     selection_mode="single-row",
-    key="tabella_clienti"
+    key="tabella_clienti",
 )
 
 # Apro la pagina marketing del cliente selezionato
 if selezione.selection.rows:
-
     indice = selezione.selection.rows[0]
 
     id_cliente = tabella_clienti.iloc[indice]["id_cliente"]
