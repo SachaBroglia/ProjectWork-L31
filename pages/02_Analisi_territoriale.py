@@ -1,4 +1,3 @@
-
 from pathlib import Path
 
 import pandas as pd
@@ -29,14 +28,9 @@ st.divider()
 
 # Filtro per categoria di servizio
 
-categorie = ["Tutte"] + sorted(
-    clienti["categoria_preferita"].unique().tolist()
-)
+categorie = ["Tutte"] + sorted(clienti["categoria_preferita"].unique().tolist())
 
-categoria = st.selectbox(
-    "Categoria di servizio",
-    categorie
-)
+categoria = st.selectbox("Categoria di servizio", categorie)
 
 dati = clienti.copy()
 
@@ -49,12 +43,10 @@ if categoria != "Tutte":
 riepilogo = dati.groupby("zona", as_index=False).agg(
     clienti=("id_cliente", "count"),
     richieste=("richieste_ultimi_6_mesi", "sum"),
-    fatturato=("spesa_totale_euro", "sum")
+    fatturato=("spesa_totale_euro", "sum"),
 )
 
-riepilogo = riepilogo.sort_values(
-    "fatturato", ascending=False
-)
+riepilogo = riepilogo.sort_values("fatturato", ascending=False)
 
 st.subheader("Fatturato per località")
 
@@ -63,10 +55,7 @@ fig_fatturato = px.bar(
     x="zona",
     y="fatturato",
     hover_data=["clienti", "richieste"],
-    labels={
-        "zona": "Località",
-        "fatturato": "Fatturato simulato (€)"
-    }
+    labels={"zona": "Località", "fatturato": "Fatturato simulato (€)"},
 )
 
 st.plotly_chart(fig_fatturato, width="stretch")
@@ -79,22 +68,16 @@ st.subheader("Distribuzione dei segmenti")
 nomi_segmenti = {
     0: "Clienti operativi frequenti",
     1: "Clienti a spesa media elevata",
-    2: "Clienti a bassa attività recente"
+    2: "Clienti a bassa attività recente",
 }
 
-segmenti = (
-    dati.groupby(["zona", "cluster"])
-    .size()
-    .reset_index(name="clienti")
-)
+segmenti = dati.groupby(["zona", "cluster"]).size().reset_index(name="clienti")
 
 segmenti["segmento"] = segmenti["cluster"].map(nomi_segmenti)
 
 totali = segmenti.groupby("zona")["clienti"].transform("sum")
 
-segmenti["percentuale"] = (
-    segmenti["clienti"] / totali * 100
-).round(1)
+segmenti["percentuale"] = (segmenti["clienti"] / totali * 100).round(1)
 
 fig_segmenti = px.bar(
     segmenti,
@@ -106,8 +89,8 @@ fig_segmenti = px.bar(
     labels={
         "zona": "Località",
         "percentuale": "Percentuale clienti (%)",
-        "segmento": "Segmento"
-    }
+        "segmento": "Segmento",
+    },
 )
 
 fig_segmenti.update_layout(yaxis_range=[0, 100])
@@ -119,11 +102,7 @@ st.plotly_chart(fig_segmenti, width="stretch")
 
 st.subheader("Riepilogo per località")
 
-st.dataframe(
-    riepilogo,
-    hide_index=True,
-    width="stretch"
-)
+st.dataframe(riepilogo, hide_index=True, width="stretch")
 
 st.caption(
     "Elaborazione basata su dati sintetici. "

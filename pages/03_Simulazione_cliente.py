@@ -1,4 +1,3 @@
-
 from pathlib import Path
 
 import joblib
@@ -29,7 +28,7 @@ dati_modello = carica_modello()
 nomi_segmenti = {
     0: "Clienti operativi frequenti",
     1: "Clienti a spesa media elevata",
-    2: "Clienti a bassa attività recente"
+    2: "Clienti a bassa attività recente",
 }
 
 strategie = {
@@ -37,15 +36,12 @@ strategie = {
         "Valutare pacchetti di servizi ricorrenti, "
         "come pulizie e gestione degli appartamenti."
     ),
-    1: (
-        "Proporre servizi premium o pacchetti "
-        "personalizzati per strutture ricettive."
-    ),
+    1: ("Proporre servizi premium o pacchetti personalizzati per strutture ricettive."),
     2: (
         "Verificare se la riduzione delle richieste "
         "dipende dalla stagionalità turistica, "
         "prima di proporre offerte di riattivazione."
-    )
+    ),
 }
 
 
@@ -63,52 +59,41 @@ st.divider()
 # Inserimento dei dati
 
 with st.form("simulazione_cliente"):
-
     c1, c2, c3 = st.columns(3)
 
     richieste = c1.number_input(
-        "Richieste negli ultimi 6 mesi",
-        min_value=1,
-        max_value=100,
-        value=8
+        "Richieste negli ultimi 6 mesi", min_value=1, max_value=100, value=8
     )
 
     spesa = c2.number_input(
-        "Spesa media per richiesta (€)",
-        min_value=1.0,
-        max_value=500.0,
-        value=75.0
+        "Spesa media per richiesta (€)", min_value=1.0, max_value=500.0, value=75.0
     )
 
     giorni = c3.number_input(
-        "Giorni dall'ultima richiesta",
-        min_value=0,
-        max_value=365,
-        value=30
+        "Giorni dall'ultima richiesta", min_value=0, max_value=365, value=30
     )
 
-    analizza = st.form_submit_button(
-        "Analizza cliente"
-    )
+    analizza = st.form_submit_button("Analizza cliente")
 
 
 if analizza:
-
     # Preparo le variabili richieste dal modello
-    nuovo_cliente = pd.DataFrame([{
-        "richieste_ultimi_6_mesi": richieste,
-        "spesa_media_euro": spesa,
-        "giorni_ultima_richiesta": giorni
-    }])
+    nuovo_cliente = pd.DataFrame(
+        [
+            {
+                "richieste_ultimi_6_mesi": richieste,
+                "spesa_media_euro": spesa,
+                "giorni_ultima_richiesta": giorni,
+            }
+        ]
+    )
 
     # Utilizzo lo stesso scaler dell'addestramento
     dati_normalizzati = dati_modello["scaler"].transform(
         nuovo_cliente[dati_modello["variabili"]]
     )
 
-    cluster = int(
-        dati_modello["modello"].predict(dati_normalizzati)[0]
-    )
+    cluster = int(dati_modello["modello"].predict(dati_normalizzati)[0])
 
     segmento = nomi_segmenti.get(cluster, f"Cluster {cluster}")
 
@@ -121,25 +106,18 @@ if analizza:
     st.subheader("Caratteristiche del segmento")
 
     st.write(
-        f"Il segmento comprende {len(profilo)} clienti "
-        f"su un totale di {len(clienti)}."
+        f"Il segmento comprende {len(profilo)} clienti su un totale di {len(clienti)}."
     )
 
     m1, m2, m3 = st.columns(3)
 
-    m1.metric(
-        "Richieste medie",
-        f"{profilo['richieste_ultimi_6_mesi'].mean():.1f}"
-    )
+    m1.metric("Richieste medie", f"{profilo['richieste_ultimi_6_mesi'].mean():.1f}")
 
-    m2.metric(
-        "Spesa media",
-        f"{profilo['spesa_media_euro'].mean():.2f} €"
-    )
+    m2.metric("Spesa media", f"{profilo['spesa_media_euro'].mean():.2f} €")
 
     m3.metric(
         "Giorni dall'ultima richiesta",
-        f"{profilo['giorni_ultima_richiesta'].mean():.0f}"
+        f"{profilo['giorni_ultima_richiesta'].mean():.0f}",
     )
 
     # Indicazione commerciale per il segmento
@@ -150,9 +128,7 @@ if analizza:
     st.subheader("Posizionamento del cliente")
 
     confronto = clienti.copy()
-    confronto["segmento"] = confronto["cluster"].map(
-        nomi_segmenti
-    )
+    confronto["segmento"] = confronto["cluster"].map(nomi_segmenti)
 
     grafico = px.scatter(
         confronto,
@@ -165,8 +141,8 @@ if analizza:
         labels={
             "richieste_ultimi_6_mesi": "Richieste negli ultimi 6 mesi",
             "spesa_media_euro": "Spesa media (€)",
-            "segmento": "Segmento"
-        }
+            "segmento": "Segmento",
+        },
     )
 
     # La stella rappresenta il cliente simulato
@@ -181,7 +157,7 @@ if analizza:
             "symbol": "star",
             "size": 20,
             "color": "black",
-            "line": {"color": "white", "width": 1}
+            "line": {"color": "white", "width": 1},
         },
         hovertemplate=(
             f"Richieste: {richieste}<br>"
@@ -189,13 +165,10 @@ if analizza:
             f"Giorni ultima richiesta: {giorni}<br>"
             f"Segmento: {segmento}"
             "<extra></extra>"
-        )
+        ),
     )
 
-    grafico.update_layout(
-        height=500,
-        legend_title_text="Segmenti IstraOps"
-    )
+    grafico.update_layout(height=500, legend_title_text="Segmenti IstraOps")
 
     st.plotly_chart(grafico, width="stretch")
 
