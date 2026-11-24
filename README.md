@@ -63,7 +63,11 @@ L'applicazione è sviluppata con Streamlit ed è organizzata in quattro pagine:
 - Analisi clienti: distribuzione, caratteristiche e valutazione dei cluster.
 - Analisi territoriale: confronto delle cinque località istriane.
 - Simulazione cliente: assegnazione automatica del segmento e confronto grafico con i clienti esistenti.
+- Campagne marketing: selezione dei clienti e generazione di proposte commerciali personalizzate in base al segmento, alla località e al servizio preferito.
 
+ Le campagne marketing sono elaborate attraverso regole commerciali definite nel programma. Il Machine Learning viene utilizzato per individuare il segmento del cliente, mentre la proposta commerciale viene adattata utilizzando le informazioni disponibili nel database.
+
+Le comunicazioni generate sono bozze e non vengono inviate automaticamente.
 ## Avvio del progetto
 
 Dopo aver scaricato il repository e aperto un terminale nella cartella principale, installare le dipendenze:
