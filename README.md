@@ -57,7 +57,7 @@ I gruppi vengono interpretati considerando frequenza di utilizzo, spesa e attivi
 
 ## Dashboard
 
-L'applicazione è sviluppata con Streamlit ed è organizzata in quattro pagine:
+L'applicazione è sviluppata con Streamlit ed è organizzata in cinque pagine:
 
 - Home: presentazione del progetto e indicatori aziendali.
 - Analisi clienti: distribuzione, caratteristiche e valutazione dei cluster.
