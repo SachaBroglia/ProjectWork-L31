@@ -6,7 +6,6 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-import joblib
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,10 +23,6 @@ st.set_page_config(
 def carica_clienti():
     return pd.read_csv(FILE_CLIENTI, encoding="utf-8-sig")
 
-@st.cache_resource
-def carica_modello():
-    percorso = BASE_DIR / "modello" / "modello_istraops.joblib"
-    return joblib.load(percorso)
 
 clienti = carica_clienti()
 
