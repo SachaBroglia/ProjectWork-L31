@@ -31,6 +31,11 @@ def carica_modello():
 
 clienti = carica_clienti()
 
+clienti["data_iscrizione"] = pd.to_datetime(
+    clienti["data_iscrizione"],
+    errors="coerce"
+)
+
 
 # Intestazione
 
@@ -61,6 +66,22 @@ categoria = st.sidebar.selectbox(
     )
 )
 
+# Intervallo delle date di iscrizione
+prima_iscrizione = clienti["data_iscrizione"].min().date()
+ultima_iscrizione = clienti["data_iscrizione"].max().date()
+
+periodo = st.sidebar.date_input(
+    "Periodo di iscrizione",
+    value=(prima_iscrizione, ultima_iscrizione),
+    min_value=prima_iscrizione,
+    max_value=pd.Timestamp("2026-10-31").date(),
+    format="DD/MM/YYYY"
+)
+
+st.sidebar.caption(
+    "Il periodo si riferisce all'iscrizione dei clienti."
+)
+
 dati_filtrati = clienti.copy()
 
 if zona != "Tutte":
@@ -71,6 +92,18 @@ if zona != "Tutte":
 if categoria != "Tutte":
     dati_filtrati = dati_filtrati[
         dati_filtrati["categoria_preferita"] == categoria
+    ]
+
+# Mantengo solo i clienti iscritti nell'intervallo selezionato
+
+if len(periodo) == 2:
+    data_inizio, data_fine = periodo
+
+    dati_filtrati = dati_filtrati[
+        dati_filtrati["data_iscrizione"].between(
+            pd.Timestamp(data_inizio),
+            pd.Timestamp(data_fine)
+        )
     ]
 
 
@@ -186,6 +219,125 @@ st.caption(
     "Il grafico mostra due delle tre variabili utilizzate "
     "da K-Means. La terza è il numero di giorni trascorsi "
     "dall'ultima richiesta."
+)
+
+# Analisi territoriale
+
+st.divider()
+st.subheader("Analisi territoriale dell'Istria")
+
+st.write(
+    "Confronto delle località in cui opera IstraOps, "
+    "basato sui clienti e sui servizi richiesti."
+)
+
+# Riepilogo dei risultati per località
+analisi_zone = dati_filtrati.groupby(
+    "zona", as_index=False
+).agg(
+    clienti=("id_cliente", "count"),
+    richieste=("richieste_ultimi_6_mesi", "sum"),
+    fatturato=("spesa_totale_euro", "sum")
+)
+
+analisi_zone = analisi_zone.sort_values(
+    "fatturato", ascending=False
+)
+
+# Grafico del fatturato per località
+grafico_zone = px.bar(
+    analisi_zone,
+    x="zona",
+    y="fatturato",
+    hover_data=["clienti", "richieste"],
+    labels={
+        "zona": "Località",
+        "fatturato": "Fatturato simulato (€)",
+        "clienti": "Numero clienti",
+        "richieste": "Numero richieste"
+    },
+    title="Contributo economico delle località"
+)
+
+grafico_zone.update_layout(height=430)
+
+st.plotly_chart(
+    grafico_zone,
+    width="stretch"
+)
+
+# Tabella riassuntiva
+st.write("Riepilogo per località")
+
+st.dataframe(
+    analisi_zone,
+    hide_index=True,
+    width="stretch"
+)
+
+st.caption(
+    "I valori sono ottenuti dal dataset sintetico "
+    "e cambiano in base ai filtri selezionati."
+)
+
+# Distribuzione dei segmenti nelle localita
+
+st.divider()
+st.subheader("Segmenti di clientela per località")
+
+st.write(
+    "Confronto percentuale dei segmenti nelle cinque "
+    "località in cui opera IstraOps."
+)
+
+# Conto i clienti di ogni segmento per localita
+segmenti_zone = (
+    dati_filtrati.groupby(["zona", "cluster"])
+    .size()
+    .reset_index(name="clienti")
+)
+
+segmenti_zone["segmento"] = (
+    segmenti_zone["cluster"].map(nomi_segmenti)
+)
+
+# Calcolo il peso percentuale dei segmenti
+totali_zona = segmenti_zone.groupby("zona")["clienti"].transform("sum")
+
+segmenti_zone["percentuale"] = (
+    segmenti_zone["clienti"] / totali_zona * 100
+).round(1)
+
+# Grafico a barre impilate
+grafico_segmenti_zone = px.bar(
+    segmenti_zone,
+    x="zona",
+    y="percentuale",
+    color="segmento",
+    barmode="stack",
+    hover_data=["clienti"],
+    labels={
+        "zona": "Località",
+        "percentuale": "Percentuale clienti (%)",
+        "segmento": "Segmento"
+    },
+    title="Composizione della clientela per località"
+)
+
+grafico_segmenti_zone.update_layout(
+    height=470,
+    yaxis_range=[0, 100],
+    legend_title_text="Segmenti IstraOps"
+)
+
+st.plotly_chart(
+    grafico_segmenti_zone,
+    width="stretch"
+)
+
+st.caption(
+    "Ogni barra rappresenta il 100% dei clienti della località. "
+    "Le percentuali dipendono dai filtri selezionati."
 )
 
 # Consultazione dei dati
